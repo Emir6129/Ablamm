@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ablama, Kalbimin En Güzel Yerine ❤️</title>
+
+    <meta name="theme-color" content="#f8e8ef">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ARKA PLAN FOTOĞRAFI -->
+    <div class="background-photo"></div>
+
+    <!-- ARKA PLAN MÜZİĞİ -->
+    <audio id="backgroundMusic" loop>
+        <source src="assets/sarki.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- ŞİFRE EKRANI -->
+    <section id="loginScreen" class="login-screen">
+
+        <div class="login-card">
+
+            <div class="login-photo">
+                <img src="assets/foto1.jpg" alt="Birlikte çekildiğimiz fotoğraf">
+            </div>
+
+            <div class="tiny-heart">♡</div>
+
+            <p class="eyebrow">SANA ÖZEL HAZIRLANDI</p>
+
+            <h1>
+                Canım ablam,<br>
+                <em>bu sayfa bizim...</em>
+            </h1>
+
+            <p class="login-description">
+                Bazı insanlar hayatımızdan ayrı bir yere gider,
+                ama kalbimizdeki yerleri hiç değişmez.
+                Bu küçük dünyaya girmek için
+                aramızdaki o özel kelimeyi hatırlaman yeterli. ❤️
+            </p>
+
+            <div class="hint-box">
+                <span>♡</span>
+                <div>
+                    <small>KÜÇÜK BİR İPUCU</small>
+                    <p>Benimle konuşurken en çok kullandığın sesleniş... Bakalım hatırlıyor musun :))</p>
+                </div>
+            </div>
+
+            <label for="passwordInput">Bizim özel kelimemiz</label>
+
+            <input
+                type="password"
+                id="passwordInput"
+                placeholder="Şifremizi buraya yaz..."
+                autocomplete="off"
+            >
+
+            <p id="errorMessage" class="error-message"></p>
+
+            <button id="loginButton" class="primary-button">
+                Kalbime gir ♡
+            </button>
+
+            <p class="login-footer">Küçüklüğümden bugünüme, hep sen. ♡</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ANA SAYFA -->
+    <main id="mainContent" class="main-content hidden">
+
+        <!-- GİRİŞ -->
+        <header class="hero">
+
+            <span class="hero-small">BİR ÖMÜRLÜK BAĞ</span>
+
+            <h1>
+                İyi ki benim<br>
+                <em>ablamsın.</em>
+            </h1>
+
+            <div class="hero-divider">
+                <span></span>
+                ♡
+                <span></span>
+            </div>
+
+            <p class="hero-text">
+                Büyüdük, değiştik, hayat bizi farklı yerlere götürdü.
+                Ama sen benim hikâyemin en güzel başlangıçlarından
+                biri olarak hep aynı yerde kaldın.
+            </p>
+
+            <a href="#ourStory" class="scroll-button">
+                Hikâyemize doğru ↓
+            </a>
+
+        </header>
+
+
+        <!-- FOTOĞRAFLAR VE ANILAR -->
+        <section id="ourStory" class="story-section">
+
+            <div class="section-heading">
+                <span>BİZİM HİKÂYEMİZ</span>
+                <h2>Birlikte büyüdük,<br><em>birbirimizde kaldık.</em></h2>
+            </div>
+
+
+            <!-- 1. ANı -->
+            <article class="memory memory-left">
+
+                <div class="memory-photo">
+                    <img src="assets/foto5.jpg" alt="Birlikte çekildiğimiz ilk fotoğraf" loading="lazy">
+                    <span class="photo-number">01 — BİZ</span>
+                </div>
+
+                <div class="memory-text">
+                    <span class="memory-label">HER ŞEYDEN ÖNCE</span>
+
+                    <h3>Sen hep<br>benim evimdin.</h3>
+
+                    <p>
+                        Hayatın bana verdiği en güzel şeylerden
+                        biri seninle aynı ailede büyümekti.
+                        Belki o zamanlar bunun ne kadar kıymetli
+                        olduğunu bilmiyordum ama bugün anlıyorum:
+                        Bazı bağlar anlatılmaz, insanın içine işlenir.
+                    </p>
+
+                    <span class="little-heart">♡</span>
+                </div>
+
+            </article>
+
+
+            <!-- 2. ANı -->
+            <article class="memory memory-right">
+
+                <div class="memory-photo">
+                    <img src="assets/foto2.jpg" alt="Güzel bir anımız" loading="lazy">
+                    <span class="photo-number">02 — GÜLÜŞÜMÜZ</span>
+                </div>
+
+                <div class="memory-text">
+                    <span class="memory-label">KÜÇÜK ŞEYLER, BÜYÜK ANILAR</span>
+
+                    <h3>Yanında olmak<br>hep güzeldi.</h3>
+
+                    <p>
+                        Birlikte güldüğümüz anlar, saçma sapan
+                        konuşmalarımız, küçücük şeylerden mutlu
+                        oluşumuz... Belki dünya için sıradan
+                        anlardı bunlar. Ama benim için yıllar
+                        geçse de içimi ısıtacak hatıralar.
+                    </p>
+
+                    <span class="little-heart">♡</span>
+                </div>
+
+            </article>
+
+
+            <!-- 3. ANı -->
+            <article class="memory memory-left">
+
+                <div class="memory-photo">
+                    <img src="assets/foto3.jpg" alt="Birlikte geçirdiğimiz güzel bir gün" loading="lazy">
+                    <span class="photo-number">03 — HATIRALAR</span>
+                </div>
+
+                <div class="memory-text">
+                    <span class="memory-label">ZAMAN GEÇSE DE</span>
+
+                    <h3>Hayat değişti,<br>bizim bağımız değil.</h3>
+
+                    <p>
+                        Artık eskisi gibi her an yan yana
+                        olamasak da senin yerin hep aynı.
+                        Mesafeler bazı şeyleri değiştirebilir,
+                        ama insanın kalbinde büyüttüğü sevgiyi
+                        eksiltemez. Sen benim için hep çok özelsin.
+                    </p>
+
+                    <span class="little-heart">♡</span>
+                </div>
+
+            </article>
+
+
+            <!-- 4. ANı -->
+            <article class="memory memory-right">
+
+                <div class="memory-photo">
+                    <img src="assets/foto4.jpg" alt="Bir başka güzel anımız" loading="lazy">
+                    <span class="photo-number">04 — DAİMA</span>
+                </div>
+
+                <div class="memory-text">
+                    <span class="memory-label">HER ZAMAN</span>
+
+                    <h3>Ne olursa olsun,<br>ben buradayım.</h3>
+
+                    <p>
+                        Hayat sana yeni bir yuva, yeni başlangıçlar
+                        ve bambaşka güzellikler getirdi.
+                        Ben de senin her mutluluğunda içtenlikle
+                        sevinen kardeşin olarak hep burada olacağım.
+                        Çünkü senin mutluluğun benim de mutluluğum.
+                    </p>
+
+                    <span class="little-heart">♡</span>
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- DUYGUSAL ARA BÖLÜM -->
+        <section class="quote-section">
+
+            <span class="quote-heart">“</span>
+
+            <p>
+                Belki artık aynı evde uyanmayacağız,
+                her gün aynı şeyleri paylaşmayacağız.
+                Ama ben hayatımın hangi yaşında olursam olayım,
+                senin küçük kardeşin olmaktan hiç vazgeçmeyeceğim.
+            </p>
+
+            <span class="quote-signature">Sonsuza kadar kardeşin. ♡</span>
+
+        </section>
+
+
+        <!-- MEKTUP -->
+        <section class="letter-section">
+
+            <div class="letter-icon">✉</div>
+
+            <span class="hero-small">SÖYLEYEMEDİĞİM BAZI ŞEYLER</span>
+
+            <h2>
+                Sana ayırdığım<br>
+                <em>birkaç dakika...</em>
+            </h2>
+
+            <p>
+                Bazen insan en sevdiklerine bile
+                içindekileri tam olarak anlatamıyor.
+                Bu kez kalbimdekileri senin için hazırladım.
+            </p>
+
+            <button id="openLetterButton" class="letter-button">
+                <span>♡</span>
+                Mektubunu aç
+                <span>♡</span>
+            </button>
+
+            <span class="letter-bottom-note">Yalnızca sana, canım ablama.</span>
+
+        </section>
+
+
+        <!-- SAYFA SONU -->
+        <footer class="footer">
+
+            <div class="footer-heart">♥</div>
+
+            <p>
+                Bazı sevgilerin sonu yoktur.<br>
+                Kardeşlik de onlardan biridir.
+            </p>
+
+            <span>HER ZAMAN SENİN KARDEŞİN ♡</span>
+
+        </footer>
+
+    </main>
+
+
+    <!-- MEKTUP / VİDEO PENCERESİ -->
+    <div id="letterModal" class="letter-modal hidden">
+
+        <div class="letter-modal-content">
+
+            <button
+                id="closeLetterButton"
+                class="close-button"
+                aria-label="Mektubu kapat"
+            >
+                ✕
+            </button>
+
+            <div class="modal-heading">
+                <span>♡ SANA ♡</span>
+                <h2>Canım ablam...</h2>
+            </div>
+
+            <div class="video-container">
+
+                <video
+                    id="memoryVideo"
+                    controls
+                    playsinline
+                    preload="metadata"
+                >
+                    <source src="assets/video.mp4" type="video/mp4">
+                    Tarayıcınız video oynatmayı desteklemiyor.
+                </video>
+
+            </div>
+
+            <div class="emotional-letter">
+
+                <span class="letter-decoration">✧</span>
+
+                <p class="letter-intro">Kalbimden sana...</p>
+
+                <h3>
+                    İyi ki doğdun değil sadece,<br>
+                    <em>iyi ki benim ablamsın.</em>
+                </h3>
+
+                <p>
+                    Canım ablam, seninle aynı çocukluğun
+                    içinde büyümek, aynı evin anılarını
+                    paylaşmak ve senin kardeşin olmak benim
+                    için her zaman çok kıymetli olacak.
+                </p>
+
+                <p>
+                    Şimdi kendi yuvanı kurdun, hayatında
+                    yeni bir sayfa açtın. Senin adına o kadar
+                    mutluyum ki... Ama bilmeni isterim,
+                    hayat seni nereye götürürse götürsün
+                    senin bir kardeşin var. Sevincinde seninle
+                    gülen, üzüldüğünde içi seninle burkulan,
+                    başına ne gelirse gelsin sana koşmak
+                    isteyen bir kardeşin.
+                </p>
+
+                <p>
+                    Belki sana her zaman söyleyemiyorum,
+                    belki bazen sevgimi göstermekte eksik
+                    kalıyorum. Ama seni çok seviyorum.
+                    Çocukluğumun bir parçası olduğun için,
+                    hayatımda olduğun için, sen olduğun için...
+                </p>
+
+                <p>
+                    Bir gün ikimiz de çok yaşlanacağız.
+                    Şimdiki fotoğraflarımıza bakıp güleceğiz.
+                    İşte o gün de sen benim canım ablam
+                    olacaksın. Ben de senin kardeşin...
+                </p>
+
+                <p class="final-message">
+                    İyi ki aynı anne babanın evlatları olmuşuz.
+                    İyi ki yollarımız hiç ayrılmayacak bir bağla
+                    birleşmiş. Seni bugün de, yarın da,
+                    hayatımın sonuna kadar çok seveceğim. ❤️
+                </p>
+
+                <p class="letter-signature">
+                    Seni çok seven kardeşinle... ♡
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
